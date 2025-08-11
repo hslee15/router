@@ -3,11 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul{list-style-type: none;}
+ul{
+    list-style-type: none;
+    font-size: 20px;
+}
 a{
     text-decoration: none;
     color: black;
 }
+p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+h1{
+    font-size: 50px;
+}
 section {
-    padding: 100px 10px;
+    padding: 100px 120px;
+    display: flex;
+    flex-direction: column;
+}
+section .bt{
+    display: flex;
+    width: 200px;
+    gap: 10px;
+    padding-top: 20px;
+}
+button{
+    background-color: lightblue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: lightskyblue;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+section li {
+    padding: 10px;
+    margin: 5px;
+    background-color: lightblue;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+section li:hover{
+    background-color: lightskyblue;
+    transform: scale(1.1);
+    transition: 0.3s ;
+}
+section h1{
+    font-size: 40px;
 }

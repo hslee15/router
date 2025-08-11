@@ -9,6 +9,13 @@ nav{
     gap: 20px;
 }
 .nav-list li a.active{
-    color: red;
+    color: lightblue;
     font-weight: bold;
+}
+.nav-list li:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.nav-list li{
+    transition: 0.2s;
 }

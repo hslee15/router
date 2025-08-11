@@ -52,8 +52,10 @@ const CommunityDetail = () => {
             <p>작성자: {posts.writer}</p>
             <p>작성일: {}</p>
             <p>조회수: {}</p>
+            <div className='bt'>
             <button onClick={()=>nav(-1)}>뒤로 가기</button>
             <button onClick={()=>nav('/')}>홈으로 가기</button>
+            </div>
         </section>
   )
 }
