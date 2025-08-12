@@ -1,6 +1,10 @@
 footer {
     color: #fff;
     background-color: #363636;
+    padding: 20px;
+}
+footer ul{
+    padding: 4px;
 }
 footer *{
     color: #fff;
