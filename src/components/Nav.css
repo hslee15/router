@@ -8,7 +8,7 @@ nav{
     display: flex;
     gap: 20px;
 }
-.nav-list li a.active{
+.nav-list li a.active:hover{
     color: lightblue;
     font-weight: bold;
 }
